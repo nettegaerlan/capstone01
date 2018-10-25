@@ -40,6 +40,10 @@ a:hover {
 	color: white;
 }
 
+#index-anchor:hover {
+	color: black;
+}
+
 #index-btn {
 	width: 100px;
 	height: 50px;
@@ -256,6 +260,7 @@ footer {
 
 	.btn-des {
 		margin-left: 35%;
+		background-color: grey;
 	}
 
 }

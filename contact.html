@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no"> <!-- for disabling zoom in mobile device -->
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	
+	<!-- icon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Hey Beach</title>
+	
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- google fonts	 -->
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Merienda" rel="stylesheet">
+
+	<!-- Animate CSS	 -->
+	<link rel="stylesheet" type="text/css" href="assets/css/Animate.css">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body id="body">
+
+	<div class="container-fluid px-0">
+		<!-- <img class="img-fluid" src="assets/images/head.jpg" alt="header-img"> -->
+
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<a class="navbar-brand" href="index.html">Logo</a>
+
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html" target="_blank"> Home </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="destination.html"> Destination </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="about.html" target="_blank"> About </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link active" href="contact.html" target="_blank"> Contact </a>
+					</li>
+				</ul>
+			</div> <!-- end of navbar div -->
+
+
+			<div class="contact d-none d-lg-block">
+				<a href="https://www.facebook.com/bernette0902" target="_blank"> <img src="assets/images/facebook.png" alt="social-Facebook"></a>
+
+				<a href="https://gitlab.com/nettegaerlan" target="_blank"> <img src="assets/images/gitlab.png" alt="social-gitlab"></a>
+
+				<a href="https://github.com/nettegaerlan" target="_blank"> <img src="assets/images/github.png" alt="social-github"></a>
+
+				<a href="mailto:bernette.gaerlan@gmail.com" target="_top"><img src="assets/images/gmail.png" alt="social-GMail"></a>
+			</div>
+		</nav> <!-- end of nav -->
+
+		<section class="banner">
+			<h1 id="contact-title" class="text-center">Contact Us</h1>
+		</section>
+		
+		<div class="container">
+			<div class="row">
+				
+				<header class="contact-header col-12">
+					<h2 class="contact-form text-center py-3">Contact Form</h2>
+				</header>
+
+				<div class="col-12 col-md-12 col-lg-6 offset-lg-3">
+					<form id="form" class="mb-4">
+						
+						<div class="form-group">
+							<label for="firstname">First Name:</label>
+							<input id="firstname" class="form-control" type="text" placeholder="Enter Your First Name Here">
+						</div> <!-- end of form group -->
+
+						<div class="form-group">
+							<label for="lastname">Last Name:</label>
+							<input id="lastname" class="form-control" type="text" placeholder="Enter Your Last Name Here">
+						</div> <!-- end of form group -->
+
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input id="email" class="form-control" type="email" placeholder="Enter Your Email Here">
+						</div> <!-- end of form group -->
+
+						<div class="form-group">
+							<label for="contact">Contact Number:</label>
+							<input id="contact" class="form-control" type="text" placeholder="Enter Your Contact Number Here">
+						</div> <!-- end of form group -->
+
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea id="message" class="form-control" placeholder="Enter Your Message Here"></textarea>
+						</div> <!-- end of form group -->
+
+						<button class="btn btn-block btn-primary">Submit</button>
+						
+					</form>
+
+				</div> <!-- end of form columns -->
+			</div> <!-- end of row -->
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-6">
+					<h2 class="contact-form text-center py-3">Address</h2>
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7720.830308796306!2d121.0439354!3d14.6323596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn+Building%2C+134+Timog+Ave%2C+Diliman%2C+Quezon+City%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1540276724563" width="100%" height="450" frameborder="0" style="border:0; margin-top: 10px;" allowfullscreen></iframe>
+				</div> <!-- end of google map -->
+				<div class="col-12 col-md-12 col-lg-6">
+					<h2 class="contact-form text-center py-3">Contact Details</h2>
+					<p class="contact-tel text-center">Telephone number: +8459618 </p>
+					<p class="text-center">Mobile number: +639171234567 </p>
+					<p class="text-center">Email address: bernette.gaerlan@gmail.com </p>
+				</div>
+			</div> <!-- end of row -->
+		</div>
+
+
+		<footer class="footer mt-5">
+			<p class="p-3 mb-0 text-center"> Bernette Gaerlan | Hey Beach &copy; 2018 </p>
+		</footer>
+	</div> <!-- end of container -->
+
+
+	<!-- jquery first then popper then bootstrap js - to function properly-->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!-- external bootstrap js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

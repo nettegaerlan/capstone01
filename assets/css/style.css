@@ -1,0 +1,327 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*landing page*/
+.jumbotron hr{
+	background-color: lightgrey;
+}
+
+#jumbo-land{
+	padding-top: 15%;
+	height: 100vh;
+	position: relative;
+	background-image: url("../images/landing.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border-radius: 0; /*removes jumbotron;s rounded corners*/
+
+}
+.jumbotron h1{
+	color: #173753;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#index-anchor {
+	color: white;
+}
+
+#index-btn {
+	width: 100px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	/*background-color: rgba(247,227,193,0.5);*/
+	background-color: #67626C;
+	border-radius: 5px;
+	/*border: 1px double grey;*/
+	/*box-shadow: 3px 3px #888888;*/
+}
+
+blockquote {
+	font-family: 'Merienda', cursive;
+	font-size: 18px;
+}
+
+
+
+/*home page*/
+img[alt*="header-img"] {
+	width: 100%;
+	height: 30vh;	
+}
+
+.navbar {
+	background-color: #4C4C4B;
+	/*background-color: #aa925f;*/
+	/*background-color: #88CCF1;*/
+	/*padding: 0 0 0 10px;*/
+}
+
+.sticky-top {
+	top: -3px;
+}
+
+#body {
+	background-color: #F2F4F3;
+}
+
+
+img[alt*="logo"] {
+	width: 50px;
+}
+
+
+img[alt*="social"] {
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.first {
+	height: auto;
+	margin-top: 5%; 
+}
+
+#carousel-controls {
+	width: 100%;
+	height: 35vh;
+	margin: 0 auto;
+}
+
+#carousel-controls img {
+	height: 35vh;
+	max-height: 35vh;
+	margin: 0 auto;
+	border-radius: 3px
+}
+
+.line {
+	background-color: grey;
+	width: 120vh;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 8%;
+}
+
+.second {
+	height: 60vh;
+}
+
+
+.feature {
+	height: 200px;
+}
+
+.card-body {
+	height: 180px;
+}
+
+
+footer {
+	background-color: #636261;
+	color: lightgrey;
+	width: 100%;
+}
+
+
+/*contact page*/
+.banner	{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("https://assets.bosch.com/media/global/contact/bosch-contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#contact-title {
+	padding-top: 30%;
+}
+
+#form {
+	padding:60px;
+	border: 3px double grey;
+}
+
+.contact-tel {
+	margin-top: 20%;
+}
+
+
+/*destination page*/ 
+
+.destinations {
+	width: 500px;
+	height: 250px;
+}
+
+.btn-des {
+	margin-left: 40%;
+}
+
+/*Media Queries*/
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+	img[alt*="header-img"] {
+		height: 25vh;
+		
+	}
+
+	.navbar-toggler-icon {
+		width: 25px;
+		height: 20px;
+
+	}
+
+	img[alt*="social"] {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	}
+
+	 #carousel-controls {
+		width: 45vh;
+		height: 30vh;
+		margin: 0 auto;
+	}
+
+	#carousel-controls img {
+		height: 30vh;
+		max-height: 30vh;
+		margin: 0 auto;
+		border: 6px double grey;
+		border-radius: 3px
+	}
+
+	.line {
+		background-color: grey;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10%;
+	}
+
+	.second {
+		height: 100%;
+	}
+
+	.card-body {
+		font-size: 18px;
+		height: 200px;
+		word-wrap: break-word;
+	}
+
+	.banner	{
+	width: 100%;
+	height:100vh;
+	position: relative; /*so that the box will make its basis for position*/
+	background-image: url("https://assets.bosch.com/media/global/contact/bosch-contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+#contact-title {
+	padding-top: 60%;
+}
+
+.contact-tel {
+	margin-top: 0;
+	}
+
+	.btn-des {
+		margin-left: 35%;
+	}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	img[alt*="header-img"] {
+		width: 100%;
+		height: 25vh;
+		
+	}
+
+ 	#carousel-controls {
+		width: 68vh;
+		height: 40vh;
+		margin: 0 auto;
+	}
+
+	#carousel-controls img {
+		height: 40vh;
+		max-height: 40vh;
+		margin: 0 auto;
+		border: 6px double grey;
+		border-radius: 3px
+	}
+
+	.line {
+		background-color: grey;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10%;
+	}
+
+	.second {
+		height: 100%;
+	}
+
+	.card-body {
+		font-size: 18px;
+		height: 330px;
+
+	}
+	
+
+	#contact-title {
+	padding-top: 60%;
+}
+
+	.contact-tel {
+	margin-top: 0;
+	}
+
+	.destinations {
+	width: 500px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+	.btn-des {
+		margin-left: 40%;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+
+}

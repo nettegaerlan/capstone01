@@ -27,16 +27,17 @@
 	font-size: 50px;
 }
 
-a {
+/*a {
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
 	color: black;
-}
+}*/
 
 #index-anchor {
+	
 	color: white;
 }
 

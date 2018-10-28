@@ -5,24 +5,9 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no"> <!-- for disabling zoom in mobile device -->
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	
+
 	<!-- icon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/icon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/icon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/icon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/icon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/icon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/icon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/icon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/icon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/gif/png" href="assets/images/android-icon-72x72.png">
 
 	<title>Hey Beach</title>
 
@@ -47,7 +32,8 @@
 		<img class="img-fluid" src="assets/images/head.jpg" alt="header-img">
 
 		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-			<a class="navbar-brand" href="index.html">Logo</a>
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
+			<!-- <a class="navbar-brand" href="index.html">Logo</a> -->
 
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-nav">
 				<span class="navbar-toggler-icon"></span>
@@ -90,6 +76,16 @@
 		<div class="container">
 			<div class="row mt-5">
 				<div class="col-12 col-md-12 col-lg-6">
+					<img class="destinations img-fluid d-flex" src="assets/images/destination-01.jpg">
+				</div>
+				<div class="col-12 col-md-12 col-lg-6">
+					<h4 class="desti-head text-center mt-3">Bolinao, Pangasinan</h4>
+					<p class="text-center">Bolinao, Pangasinan is a 5 to 7-hour drive (depending on the traffic and when you'll go) from Manila. There are different places you could go to here in Bolinao but most people would go to the Patar Beach and go swimming.</p>
+					<button class="btn-des btn btn-large" data-toggle="modal" data-target="#modal-bo">Read more</button>
+				</div>
+			</div> <!-- end of row -->
+			<div class="row mt-5">
+				<div class="col-12 col-md-12 col-lg-6">
 					<img class="destinations img-fluid d-flex" src="assets/images/destination-1.jpg">
 				</div>
 				<div class="col-12 col-md-12 col-lg-6">
@@ -121,6 +117,33 @@
 				</div>
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
+
+
+		<div id="modal-bo" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					
+					<div class="modal-header">
+						<h5 class="modal-title">Bolinao, Pangasinan</h5>
+
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true"> &times; </span>
+						</button>
+					</div> <!-- end of modal header -->
+					<div class="modal-body">
+						<img class="img-fluid" src="assets/images/modal-01.jpg">
+						<p class="text-justify">There are several beaches here in Bolinao but most people go to Patar Beach. It is quite far from the town of Bolinao but this is one of the best places you could enjoy your vacation or trip.</p>
+						<p class="text-justify">If you don't want to be far from the town, you could stay at El Pescador Resort. It's a beautiful place you can enjoy. If you got tired from swimming at the beach, you could just relax at their swimming pool.</p>
+						<p class="text-justify">To know more about El Pescador Resort Hotel, click this <a href="https://www.elpescadorbolinao.com/" target="_blank">link.</a></p>
+					</div> <!-- end of modal body -->
+
+					<div class="modal-footer">
+						<button class="btn btn-dark" data-dismiss="modal">Close</button>
+					</div> <!-- end of modal footer -->
+				</div>		
+			</div>
+		</div>
+
 
 		<div id="modal-cebu" class="modal fade">
 			<div class="modal-dialog" role="document">

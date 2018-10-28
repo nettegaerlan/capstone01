@@ -27,17 +27,7 @@
 	font-size: 50px;
 }
 
-/*a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-	color: black;
-}*/
-
 #index-anchor {
-
 	color: white;
 }
 
@@ -52,11 +42,8 @@ a:hover {
 	padding: 10px;
 	text-align: center;
 	font-size: 18px;
-	/*background-color: rgba(247,227,193,0.5);*/
 	background-color: #67626C;
 	border-radius: 5px;
-	/*border: 1px double grey;*/
-	/*box-shadow: 3px 3px #888888;*/
 }
 
 blockquote {
@@ -66,17 +53,15 @@ blockquote {
 
 
 
-/*home page*/
+/*------------------------------------------------------HOME PAGE----------------------------------------------------*/
 img[alt*="header-img"] {
 	width: 100%;
 	height: 30vh;	
 }
 
 .navbar {
-	background-color: #4C4C4B;
-	/*background-color: #aa925f;*/
-	/*background-color: #88CCF1;*/
-	/*padding: 0 0 0 10px;*/
+	background-color: #79B4B8;
+	padding: 0 0 0 10px;
 }
 
 .sticky-top {
@@ -124,7 +109,7 @@ img[alt*="social"] {
 	width: 120vh;
 	margin: 0 auto;
 	margin-top: 10px;
-	margin-bottom: 8%;
+	margin-bottom: 2%;
 }
 
 .second {
@@ -136,19 +121,21 @@ img[alt*="social"] {
 	height: 200px;
 }
 
+
 .card-body {
 	height: 180px;
 }
 
 
 footer {
-	background-color: #636261;
-	color: lightgrey;
+	/*background-color: #636261;*/
+	background-color: #71B0AE;
+	color: black;
 	width: 100%;
 }
 
 
-/*contact page*/
+/*------------------------------------------------------CONTACT PAGE----------------------------------------------------*/
 .banner	{
 	width: 100%;
 	height: 100vh;
@@ -174,7 +161,7 @@ footer {
 }
 
 
-/*destination page*/ 
+/*------------------------------------------------------DESTINATION PAGE----------------------------------------------------*/
 
 .destinations {
 	width: 500px;
@@ -184,6 +171,33 @@ footer {
 .btn-des {
 	margin-left: 40%;
 }
+
+
+/*------------------------------------------------------ABOUT PAGE----------------------------------------------------*/
+.con {
+	background-color: rgba(145,163,155,0.2);
+}
+
+#about-img {
+	width: 350px;
+	height: 30vh;
+	margin: 0 auto;
+	border-radius: 30px;
+}
+
+#about-title {
+	font-size: 25px;
+}
+
+img[alt*="author-image"] {
+	width: 450px;
+	height: 35vh;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-left: 50px;
+}
+
+
 
 /*Media Queries*/
 
@@ -240,28 +254,32 @@ footer {
 		word-wrap: break-word;
 	}
 
-	.banner	{
-	width: 100%;
-	height:100vh;
-	position: relative; /*so that the box will make its basis for position*/
-	background-image: url("https://assets.bosch.com/media/global/contact/bosch-contact.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
+
+	#contact-title {
+	padding-top: 60%;
 	}
 
-#contact-title {
-	padding-top: 60%;
-}
-
-.contact-tel {
+	.contact-tel {
 	margin-top: 0;
 	}
 
 	.btn-des {
 		margin-left: 35%;
 		background-color: lightgrey;
+	}
+
+	.about-img {
+	width: 500px;
+	height: 30vh;
+	border-radius: 30px;
+	}
+
+	img[alt*="author-image"] {
+	width: 500px;
+	height: 35vh;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top: 10px;
 	}
 
 }
@@ -306,10 +324,9 @@ footer {
 
 	}
 	
-
 	#contact-title {
 	padding-top: 60%;
-}
+	}
 
 	.contact-tel {
 	margin-top: 0;

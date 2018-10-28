@@ -41,7 +41,8 @@
 	margin: 0 auto;
 	padding: 10px;
 	text-align: center;
-	font-size: 18px;
+	font-family: 'Itim', cursive;
+	font-size: 20px;
 	background-color: #67626C;
 	border-radius: 5px;
 }
@@ -62,6 +63,8 @@ img[alt*="header-img"] {
 .navbar {
 	background-color: #79B4B8;
 	padding: 0 0 0 10px;
+	font-family: 'Armata', sans-serif;
+	
 }
 
 .sticky-top {
@@ -88,7 +91,12 @@ img[alt*="social"] {
 
 .first {
 	height: auto;
-	margin-top: 5%; 
+	margin-top: 4%; 
+}
+
+.title {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
 }
 
 #carousel-controls {
@@ -104,6 +112,16 @@ img[alt*="social"] {
 	border-radius: 3px
 }
 
+.home-intro {
+	font-family: 'Rock Salt', cursive;
+	font-size: 27px;
+}
+
+.home-text {
+	font-family: 'Handlee', cursive;
+	font-size: 19px;
+}
+
 .line {
 	background-color: grey;
 	width: 120vh;
@@ -116,6 +134,11 @@ img[alt*="social"] {
 	height: 60vh;
 }
 
+.home-post {
+	font-family: 'Rancho', cursive;
+	font-size: 40px;
+	letter-spacing: 7px;
+}
 
 .feature {
 	height: 200px;
@@ -126,38 +149,22 @@ img[alt*="social"] {
 	height: 180px;
 }
 
+.card-title {
+	font-family: 'Contrail One', cursive;
+}
+
+.card-text {
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+}
+
 
 footer {
 	/*background-color: #636261;*/
 	background-color: #71B0AE;
+	font-family: 'Armata', sans-serif;
 	color: black;
 	width: 100%;
-}
-
-
-/*------------------------------------------------------CONTACT PAGE----------------------------------------------------*/
-.banner	{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	background-image: url("https://assets.bosch.com/media/global/contact/bosch-contact.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-}
-
-#contact-title {
-	padding-top: 30%;
-}
-
-#form {
-	padding:60px;
-	border: 3px double grey;
-}
-
-.contact-tel {
-	margin-top: 20%;
 }
 
 
@@ -168,8 +175,26 @@ footer {
 	height: 250px;
 }
 
+.desti-head {
+	font-family: 'Contrail One', cursive;
+}
+
+.desti-text {
+	font-family: 'Handlee', cursive;
+	font-size: 19px;
+}
+
 .btn-des {
 	margin-left: 40%;
+	font-family: 'Itim', cursive;
+}
+
+.modal-title {
+	font-family: 'Days One', sans-serif;
+}
+
+.btn-close {
+	font-family: 'Itim', cursive;
 }
 
 
@@ -185,8 +210,20 @@ footer {
 	border-radius: 30px;
 }
 
+.about {
+	font-family: 'Rancho', cursive;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
 #about-title {
-	font-size: 25px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 23px;
+}
+
+.about-text {
+	font-family: 'Handlee', cursive;
+	font-size: 19px;
 }
 
 img[alt*="author-image"] {
@@ -196,6 +233,58 @@ img[alt*="author-image"] {
 	border: 2px solid black;
 	margin-left: 50px;
 }
+
+/*------------------------------------------------------CONTACT PAGE----------------------------------------------------*/
+.banner	{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("https://assets.bosch.com/media/global/contact/bosch-contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#contact-title {
+	padding-top: 20%;
+	font-family: 'Rock Salt', cursive;
+}
+
+.contact-form {
+	font-family: 'Rancho', cursive;
+	font-size: 50px;
+}
+
+.contact-text {
+	font-family: 'Handlee', cursive;
+	font-size: 19px;
+}
+
+#form {
+	padding:60px;
+	border: 3px double grey;
+}
+
+label {
+	font-family: 'Handlee', cursive;
+	font-size: 19px;
+}
+
+.contact-tel {
+	margin-top: 20%;
+}
+
+.btn-submit {
+	font-family: 'Itim', cursive;
+}
+
+
+
+
+
+
+
 
 
 
@@ -342,6 +431,14 @@ img[alt*="author-image"] {
 		margin-left: 40%;
 		background-color: lightgrey;
 	}
+
+	img[alt*="author-image"] {
+	width: 500px;
+	height: 35vh;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top: 10px;
+	}	
 }
 
 /* Desktop Styles */

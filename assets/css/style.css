@@ -293,7 +293,7 @@ label {
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 	#index-btn {
-		font-size: 15px;
+		height: 60px;
 	}
 
 	img[alt*="header-img"] {

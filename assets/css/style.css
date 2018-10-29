@@ -175,6 +175,11 @@ footer {
 	height: 250px;
 }
 
+.destinations:hover {
+	box-shadow: 10px 10px lightgrey;
+	border-radius: 30px;
+}
+
 .desti-head {
 	font-family: 'Contrail One', cursive;
 }
@@ -293,7 +298,8 @@ label {
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 	#index-btn {
-		height: 60px;
+		height: 65px;
+		word-wrap: break-word;
 	}
 
 	img[alt*="header-img"] {

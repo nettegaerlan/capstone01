@@ -300,6 +300,7 @@ label {
 	#index-btn {
 		height: 55px;
 		word-wrap: break-word;
+		padding-top: 10px;
 	}
 
 	img[alt*="header-img"] {

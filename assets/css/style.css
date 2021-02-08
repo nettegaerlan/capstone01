@@ -333,6 +333,11 @@ label {
 		border: 6px double grey;
 		border-radius: 3px
 	}
+	
+	.carousel-inner {
+		max-width: 400px;
+	}
+
 
 	.line {
 		background-color: grey;
